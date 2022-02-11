@@ -35,6 +35,6 @@ Cherry-Cola/
 
 **Creator 1**
 
-- <https://github.com/Jmeyer098>
+- <https://github.com/JamesM098>
 
 ## Thanks
