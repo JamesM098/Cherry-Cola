@@ -14,7 +14,7 @@ from discord.ext import commands, tasks
 from itertools import cycle
 import time
 import sys
-import secretFile
+import topSecretFile
 
 comments = """ hi """
 status = cycle(["Dont stop believin'", 'Lemon Haze', 'ACDC', 'Metalica', 'Ice Cube'])
@@ -115,5 +115,5 @@ async def changesongx(ctx, *, songname):
     )
     await ctx.send(embed=embed)
 
-TOKEN = secretFile.TOKEN
+TOKEN = topSecretFile.TOKEN
 client.run(TOKEN)
