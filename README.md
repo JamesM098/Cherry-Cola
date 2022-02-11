@@ -1,0 +1,2 @@
+# Cherry-Cola
+Discord Bot
