@@ -19,7 +19,7 @@ import topSecretFile
 comments = """ hi """
 status = cycle(["Dont stop believin'", 'Lemon Haze', 'ACDC', 'Metalica', 'Ice Cube'])
 client = commands.Bot(command_prefix = '^')
-rand_Seconds = random.randint(3000, 6000)
+rand_Seconds = random.randint(2000, 4000)
 
 
 
