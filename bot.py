@@ -5,6 +5,7 @@
 ##################################
 
 from inspect import _void
+from lib2to3.pgen2 import token
 from typing import Collection
 import discord
 import os
@@ -13,6 +14,7 @@ from discord.ext import commands, tasks
 from itertools import cycle
 import time
 import sys
+import secretFile
 
 comments = """ hi """
 status = cycle(["Dont stop believin'", 'Lemon Haze', 'ACDC', 'Metalica', 'Ice Cube'])
@@ -113,5 +115,5 @@ async def changesongx(ctx, *, songname):
     )
     await ctx.send(embed=embed)
 
-
-client.run('ODE3OTE0ODEyNDU2ODk0NTA0.YEQchw.jwYEvYq0tfTRMjxnj2-qsZt9N3c')
+TOKEN = secretFile.TOKEN
+client.run(TOKEN)
